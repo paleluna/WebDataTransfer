@@ -1,0 +1,6 @@
+@WebDataTransfer_HostAddress = http://localhost:5161
+
+GET {{WebDataTransfer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
