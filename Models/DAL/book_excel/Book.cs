@@ -11,5 +11,5 @@ public partial class Book
 
     public string? BookAuthor { get; set; }
 
-    public DateTime BookDataRealese { get; set; }
+    public DateTime BookDataRelease { get; set; }
 }
