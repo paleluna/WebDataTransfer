@@ -21,9 +21,9 @@ public partial class bookContext : DbContext
             entity.Property(e => e.BookAuthor)
                 .HasMaxLength(255)
                 .HasColumnName("bookAuthor");
-            entity.Property(e => e.BookDataRealese)
+            entity.Property(e => e.BookDataRelease)
                 .HasColumnType("datetime")
-                .HasColumnName("bookDataRealese");
+                .HasColumnName("bookDataRelease");
             entity.Property(e => e.BookName)
                 .HasMaxLength(255)
                 .HasColumnName("bookName");

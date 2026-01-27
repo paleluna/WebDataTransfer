@@ -8,6 +8,6 @@
 
         public string? Author { get; set; }
 
-        public DateTime DataRealese { get; set; }
+        public DateTime DataRelease { get; set; }
     }
 }
